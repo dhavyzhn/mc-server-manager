@@ -4,9 +4,6 @@ var mainWindow: BrowserWindow | null;
 
 function createWindow() {
 
-    let config: BrowserViewConstructorOptions = {
-
-    }
     mainWindow = new BrowserWindow({
         frame: false,
         show: false,
