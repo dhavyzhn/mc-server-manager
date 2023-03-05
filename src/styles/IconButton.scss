@@ -1,0 +1,31 @@
+.IconButton {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    transition: all 0.2s;
+
+    &:hover {
+        background-color: #404040;
+    }
+
+    &:active {
+        background-color: #202020;
+    }
+
+    &:focus {
+        background-color: #1BD96A;
+
+        svg {
+            color: #202020;
+        }
+
+    }
+
+    svg {
+        transition: all 0.2s;
+        margin: 0 auto;
+        color: #1BD96A;
+        font-size: 200%;
+    }
+
+}

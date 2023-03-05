@@ -1,0 +1,31 @@
+#TitleBar {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #252525;
+    -webkit-app-region: drag;
+    height: 50px;
+    width: 100%;
+
+    .Icon {}
+
+    .Title {}
+
+
+    .Button {
+        display: flex;
+        margin: auto 0;
+        margin-right: 10px;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        transition: all 0.2s;
+        -webkit-app-region: no-drag;
+        background: #ff3b30;
+
+        &:hover {
+            filter: brightness(.7);
+        }
+    }
+}
